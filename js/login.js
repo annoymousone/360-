@@ -1,17 +1,4 @@
-// $(function(){
-// 	$('.erweima>.tu').click(function(){
-// 		setInterval(function(){
-// 			$('.erweima>.tu').css("marginLeft",'')
-// 		},2000)
-// 		alert(2)
-// 	})
 
-// })
-$(function(){
-	$('#hua').mouseout(function(){
-		$('#shouj').css("display","none")
-	})
-})
 window.onload=function(){
 	var target=0;
 	var leader=40;
