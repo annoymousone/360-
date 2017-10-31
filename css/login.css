@@ -1,0 +1,494 @@
+
+*{
+	margin: 0 auto;
+	padding: 0px;
+	list-style: none;
+	outline:none;
+	text-decoration: none;
+}
+html{
+	width: 1260px;
+}
+body{
+	width: 1260px;
+}
+.logo{
+	width: 1243px;
+	height: 92px;
+	line-height: 92px;
+
+}
+.logo>img{
+	margin-left: 30px;
+	margin-top: 22px;
+
+}
+.content{
+	width: 1243px;
+	height: 600px;
+	background: #fff;
+	position: relative;
+	background: url(../img/login-bg.png)no-repeat center center;
+}
+/*设置二维码登录窗*/
+.erweima{
+	width: 344px;
+	height: 417px;
+	background: #fff;
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	z-index: 11px;
+}
+.erweima>.shaoma{
+	width: 344px;
+	height: 54px;
+	background: #fff;
+
+}
+.erweima>.shaoma>span{
+	display: block;
+	width: 110px;
+	height: 25px;
+	background: url(../img/22.png);
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	float: left;
+	left: 120px;
+	color: #22ac69;
+    top: 10px;
+    font-weight: bolder;
+  
+}
+.erweima>.shaoma>a{
+	width: 50px;
+	height: 54px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	background: url(../img/uc-account-signin.png);
+	float: right;
+}
+.erweima>.shao{
+	width: 295px;
+	height: 26px;
+	background: #fff;
+	padding:0px 25px;
+}
+.erweima>.shao>h1{
+	font-size: 20px;
+}
+.erweima>.tu{
+	width: 140px;
+	height: 140px;
+	margin-top: 60px;
+
+}
+.erweima>.tu>img{
+	width: 140px;
+	height: 140px;
+}
+.erweima>.zi{
+	width: 295px;
+	height: 26px;
+	margin-top: 40px;
+}
+.erweima>.zi>span:first-child{
+	margin-left: 4px;
+	width: 26px;
+	height: 26px;
+	display: block;
+	float: left;
+	background: url(../img/uc-twocode-icon.png);
+}
+.erweima>.zi>p{
+	font-size: 14px;
+	float: left;
+	margin-left: 20px;
+}
+.erweima>.zi>p>span{
+	color: #41c42e;
+}
+.erweima>.zi1{
+	width: 295px;
+	height: 19px;
+	color: #949494;
+	font-size: 14px;
+	margin-top: 20px;
+}
+.erweima>.zi1>#zc{
+	display: inline-block;
+	width: 100px;
+	height: 19px;
+	font-size: 14px;
+	color: #949494;
+	float: left;
+}
+.erweima>.zi1>p{
+	float: right;
+}
+.erweima>.shouji{
+	position: absolute;
+	display: none;
+	height: 200px;
+	width: 99px;
+	right: 10px;
+	top: 100px;
+}
+.erweima>.shouji>img{
+	width: 99px;
+	height: 200px;
+}
+/*设置账号登录窗*/
+.content-layout{
+	display: none;
+	width: 344px;
+	height: 417px;
+	background: #fff;
+	position: absolute;
+	top: 100px;
+	right: 0px;
+	z-index: 10px;
+
+}
+.content-layout>.shaoma{
+	width: 344px;
+	height: 54px;
+	background: #fff;
+
+}
+.content-layout>.shaoma>span{
+	display: block;
+	width: 110px;
+	height: 25px;
+	background: url(../img/22.png);
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	float: left;
+	left: 120px;
+	color: #22ac69;
+    top: 10px;
+    font-weight: bolder;
+  
+}
+.content-layout>.shaoma>a{
+	width: 50px;
+	height: 54px;
+	position: absolute;
+	top: 10px;
+	right: 0px;
+	background: url(../img/uc-two-code.png);
+	float: right;
+}
+.shuru{
+	width: 295px;
+	height: 380px;
+	background: #fff;
+	padding:0px 25px;
+}
+.shuru>h1{
+	font-size: 20px;
+}
+.shuru>.p-1{
+	width: 295px;
+	height: 52px;
+	border:2px solid #e6e6e6;
+	line-height: 52px;
+	margin-top: 20px;
+}
+.shuru>.p-1>.span-1{
+	background: url(../img/uc-account-icon.png);
+    display: inline-block;
+    height: 18px;
+  
+    vertical-align: middle;
+    margin-left: 17px;
+    width: 18px;
+}
+.shuru>.p-1>.span-2{
+	width: 250px;
+	height: 48px;
+}
+.shuru>.p-1>.span-2>input{
+	width: 244px;
+	height: 33px;
+	font-size: 20px;
+	color: #848484;
+	border:0px solid;
+}
+/*密码框*/
+.shuru>.p-2{
+	width: 295px;
+	height: 52px;
+	border:2px solid #e6e6e6;
+	line-height: 52px;
+	margin-top: 20px;
+}
+.shuru>.p-2>.span-3{
+	background: url(../img/uc-password-icon.png);
+    display: inline-block;
+    height: 18px;
+  
+    vertical-align: middle;
+    margin-left: 17px;
+    width: 18px;
+}
+.shuru>.p-2>.span-4{
+	width: 250px;
+	height: 48px;
+}
+.shuru>.p-2>.span-4>input{
+	width: 244px;
+	height: 33px;
+	font-size: 20px;
+	color: #848484;
+	border:0px solid;
+}
+/*找回密码*/
+.p-3{
+	width: 295px;
+	margin-top: 20px;
+}
+.p-3>.span5{
+	font-size: 14px;
+	display: inline-block;
+	float: left;
+}
+.p-3>.span6{
+	font-size: 14px;
+	display: inline-block;
+	float: right;
+
+}
+.shuru>button{
+	width: 295px;
+	height: 40px;
+	background: #22ac69;
+	margin-top: 25px;
+	color: #fff;
+	font-size: 18px;
+}
+/*其他账号登录*/
+.shuru>.p-4{
+	width: 295px;
+	margin-top: 20px;
+}
+.shuru>.p-4>.span8{
+	display: inline-block;
+	float: right;
+	width: 192px;
+	height: 30px;
+}
+.shuru>.p-4>.span7{
+	display: inline-block;
+	float: left;
+	font-size: 15px;
+	width: 98px;
+	/*height: 30px;*/
+}
+.shuru>.p-4>.span8>a{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: yellow;
+}
+.shuru>.p-4>.span8>.a1{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -27px 0px;
+}
+.shuru>.p-4>.span8>.a2{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -27px -108px;
+}
+.shuru>.p-4>.span8>.a3{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -27px -81px;
+}
+.shuru>.p-4>.span8>.a4{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -27px -135px;
+}
+.shuru>.p-4>.span8>.a5{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -27px -27px;
+}
+.shuru>.p-4>.span8>.a6{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -27px -54px;
+}
+/*移入的时候改变背景图片的位置*/
+.shuru>.p-4>.span8>.a1:hover{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -0px -0px;
+}
+.shuru>.p-4>.span8>.a2:hover{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -0px -108px;
+}
+.shuru>.p-4>.span8>.a3:hover{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -0px -81px;
+}
+.shuru>.p-4>.span8>.a4:hover{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -0px -135px;
+}
+.shuru>.p-4>.span8>.a5:hover{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -0px -27px;
+}
+.shuru>.p-4>.span8>.a6:hover{
+	background: url(../img/third-login-icon.png)no-repeat;
+	background-position: -0px -54px;
+}
+/*脚部内容第一排*/
+ul{
+	width: 1200px;
+	height: 70px;
+	margin-top: 30px;
+	/*background: red;*/
+	padding: 0 20px
+}
+ul>li{
+	width:240px;
+	height: 60px;
+	float: left;
+	/*background: yellow; */
+	margin-left: 40px;
+}
+ul>li>.sp2>p{
+	margin-top: 10px;
+}
+ul>li>.sp2>p:first-child{
+	font-size: 14px;
+	color: #666;
+}
+ul>li>.sp2>p:last-child{
+	color: #a1a1a1;
+    font-size: 16px;
+    margin-top: 5px;
+}
+ul>.li1>.sp1{
+	width: 36px;
+	height: 38px;
+	background: url(../img/go-complaint-gray.png);
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+ul>.li2>.sp4{
+	width: 134px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	margin-left: 16px;
+}
+ul>li>.sp4>p{
+	margin-top: 10px;
+}
+ul>li>.sp4>p:first-child{
+	font-size: 14px;
+	color: #666;
+}
+ul>li>.sp4>p:last-child{
+	color: #a1a1a1;
+    font-size: 16px;
+    margin-top: 5px;
+}
+ul>.li2>.sp3{
+	width: 36px;
+	height: 38px;
+	background: url(../img/frequent-question-icon.png);
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+ul>.li2>.sp4{
+	width: 134px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	margin-left: 16px;
+}
+ul>.li3>.sp6{
+	width: 134px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	margin-left: 16px;
+}
+ul>li>.sp6>p{
+	margin-top: 10px;
+}
+ul>li>.sp6>p:first-child{
+	font-size: 14px;
+	color: #666;
+}
+ul>li>.sp6>p:last-child{
+	color: #a1a1a1;
+    font-size: 16px;
+    margin-top: 5px;
+}
+ul>.li3>.sp5{
+	width: 36px;
+	height: 38px;
+	background: url(../img/find-password-icon.png);
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+ul>.li4>.sp8{
+	width: 134px;
+	height: 40px;
+	display: inline-block;
+	float: left;
+	margin-left: 16px;
+}
+ul>li>.sp8>p{
+	margin-top: 10px;
+}
+ul>li>.sp8>p:first-child{
+	font-size: 14px;
+	color: #666;
+}
+ul>li>.sp8>p:last-child{
+	color: #a1a1a1;
+    font-size: 16px;
+    margin-top: 5px;
+}
+ul>.li4>.sp7{
+	width: 36px;
+	height: 38px;
+	background: url(../img/account-security-icon.png);
+	display: inline-block;
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+
+}
+/*脚部第二块*/
+.footer2{
+	width: 1240px;
+	font-size: 14px;
+	color: #666;
+	height: 84px;
+	text-align: center;
+	/*background: cyan;*/
+	margin-top: 30px;
+
+}
+.footer2>p{
+	color: #999;
+	overflow: hidden;
+	margin-top: 5px;
+}
