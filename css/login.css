@@ -18,7 +18,10 @@ body{
 	line-height: 92px;
 
 }
-.logo>img{
+.logo>a{
+	display: block;
+	width: 168px;
+	height: 48px;
 	margin-left: 30px;
 	margin-top: 22px;
 
